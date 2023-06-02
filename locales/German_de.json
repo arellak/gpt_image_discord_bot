@@ -5,6 +5,6 @@
         "command_not_found": "Das Command '%s' kenne ich nicht :/"
     },
     "replies": {
-        "bot_info_tagline": "Discord Bot template von NullDev."
+        "bot_info_tagline": "Discord Bot um Bilder mithilfe von OpenAIs DALL-E zu generieren."
     }
 }

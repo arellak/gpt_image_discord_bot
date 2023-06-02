@@ -1,5 +1,5 @@
 {
-  "name": "discordjs-template",
+  "name": "gpt_image_discord_bot",
   "version": "1.1.0",
   "private": true,
   "type": "module",
@@ -19,13 +19,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NullDev/DiscordJS-Template.git"
+    "url": "git+https://github.com/arellak/gpt_image_discord_bot.git"
   },
   "bugs": {
-    "url": "https://github.com/NullDev/DiscordJS-Template/issues"
+    "url": "https://github.com/arellak/gpt_image_discord_bot/issues"
   },
-  "homepage": "https://github.com/NullDev/DiscordJS-Template#readme",
-  "author": "NullDev",
+  "homepage": "https://github.com/arellak/gpt_image_discord_bot#readme",
+  "author": "arellak",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.22.1",
@@ -39,6 +39,7 @@
     "discord.js": "^14.11.0",
     "i18n-light": "^0.5.4",
     "node-cron": "^3.0.2",
+    "openai": "^3.2.1",
     "quick.db": "^9.1.6"
   }
 }

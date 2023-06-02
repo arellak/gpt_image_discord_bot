@@ -31,4 +31,18 @@ export default {
             },
         },
     },
+    generate: {
+        desc: "Generate an image",
+        translations: {
+            de: "Generiere ein Bild",
+        },
+        options: {
+            text: {
+                desc: "The text for the generation",
+                translations: {
+                    de: "Der Text für die Generierung",
+                },
+            },
+        },
+    },
 };

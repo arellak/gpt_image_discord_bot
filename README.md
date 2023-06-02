@@ -1,5 +1,6 @@
 # DiscordJS-Template
 [![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/NullDev/DiscordJS-Template?logo=Cachet)](https://github.com/NullDev/DiscordJS-Template/issues?q=is%3Aissue+is%3Aclosed)
+[![NullDev/DiscordJS-Template](https://img.shields.io/badge/Template%3A-NullDev%2FDiscordJS--Template-green?style=flat-square&logo=github)](https://github.com/NullDev/DiscordJS-Template) [![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/NullDev/DiscordJS-Template?logo=Cachet)](https://github.com/NullDev/DiscordJS-Template/issues?q=is%3Aissue+is%3Aclosed)
 
 <p align="center"><img height="250" width="auto" src="https://cdn.discordapp.com/attachments/1113567657921355866/1113906962598465656/image.jpg" /></p>
 <p align="center"><b>Template repository for DiscordJS Projects</b></p>
@@ -27,6 +28,14 @@ This is a template repository for DiscordJS projects. It includes a basic setup 
 ## :diamond_shape_with_a_dot_inside: Feature requests & Issues
 
 Feature request or discovered a bug? Please [open an Issue](https://github.com/NullDev/DiscordJS-Template/issues/new/choose) here on GitHub.
+
+<hr>
+
+## :white_flower: Other branches
+
+There are other branches with different feature sets:
+- [master](https://github.com/NullDev/DiscordJS-Template/tree/master) - The default branch with all features (if you can read this, you are already here)
+- [no-i18n](https://github.com/NullDev/DiscordJS-Template/tree/no-i18n) - No i18n / multi language support, command localization, etc
 
 <hr>
 
@@ -64,19 +73,24 @@ $ `npm run start:prod` <br><br>
 - Bot Info Tagline
     - [English](https://github.com/NullDev/DiscordJS-Template/blob/master/locales/English_en.json#L8)
     - [German (example)](https://github.com/NullDev/DiscordJS-Template/blob/master/locales/German_de.json#L8)
+- Bot Info Author / Link
+    - [author name](https://github.com/NullDev/DiscordJS-Template/blob/master/src/commands/user/info.js#L59)
+    - [repo link or website](https://github.com/NullDev/DiscordJS-Template/blob/master/src/commands/user/info.js#L64)
 - Bot invite link in issues
     - [config.yml](https://github.com/NullDev/DiscordJS-Template/blob/master/.github/ISSUE_TEMPLATE/config.yml#L4)
+- And you probably want to change this README here :P
 
 <hr>
 
 ## :rocket: Deployment
 
+- Clone the repo to your server
 - Add the correct [secrets](https://github.com/NullDev/DiscordJS-Template/blob/master/.github/workflows/cd.yml#L27-L34) to your repository settings 
     - SSH_HOST: The host (domain / IP) of the server you want to deploy to
     - SSH_PORT: The SSH port of the server you want to deploy to (usually 22)
     - SSH_USER: The SSH user of the server you want to deploy to
     - SSH_KEY: The private SSH key of the server you want to deploy to
-    - REPO_PATH: The path to the repository on the server (e.g.: `/home/bots/MyCoolBot`)
+    - REPO_PATH: The path to the repository on the server (where you cloned to, e.g.: `/home/bots/MyCoolBot`)
     - PM2_HOME: [OPTIONAL] The path to the PM2 home directory, if it's custom (e.g.: `/home/bots/.pm2`)
 - Install PM2 on the server by running `npm install pm2 -g`
 - Start the bot initially by running `pm2 start pm2.ecosystem.json`
@@ -100,8 +114,25 @@ Once the config has been copied like described in [Step 4](#wrench-dev-setup) of
 
 - [NullDev/Arithmetica-Bot](https://github.com/NullDev/Arithmetica-Bot) - A counting bot that supports arithmetic expressions
 - [NullDev/Discord-RoleShop](https://github.com/NullDev/Discord-RoleShop) - A Bot for a Roleshop with currency that can be earned by writing messages
+- [arellak/gpt_image_discord_bot](https://github.com/arellak/gpt_image_discord_bot) - A Discord bot that generates images using DALL-E
 - ... you? Create an [issue](https://github.com/NullDev/DiscordJS-Template/issues/new/choose) or a [PR](https://github.com/NullDev/DiscordJS-Template/pulls) to get featured here!
  
+<hr>
+
+## :scroll: License
+
+This Template is Licensed under [MIT](https://github.com/NullDev/DiscordJS-Template/blob/master/LICENSE). <br>
+**You are free to change the license in your Project to whatever you want!** <br>
+But _please_ credit this Repository here in some way, shape or form :) <br>
+
+Here's a bade you can use: 
+
+[![NullDev/DiscordJS-Template](https://img.shields.io/badge/Template%3A-NullDev%2FDiscordJS--Template-green?style=flat-square&logo=github)](https://github.com/NullDev/DiscordJS-Template)
+
+```markdown
+[![NullDev/DiscordJS-Template](https://img.shields.io/badge/Template%3A-NullDev%2FDiscordJS--Template-green?style=flat-square&logo=github)](https://github.com/NullDev/DiscordJS-Template)
+```
+
 <hr>
 
 ## :octocat: Contributors
