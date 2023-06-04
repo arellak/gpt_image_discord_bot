@@ -2,9 +2,11 @@
     "__LANG__": "de",
     "errors": {
         "generic_command_execution_failed": "Beim ausführen des Commands ist ein Fehler aufgetreten! =(",
-        "command_not_found": "Das Command '%s' kenne ich nicht :/"
+        "command_not_found": "Das Command '%s' kenne ich nicht :/",
+        "no_image": "Es wurde kein Bild generiert... :("
     },
     "replies": {
-        "bot_info_tagline": "Discord Bot um Bilder mithilfe von OpenAIs DALL-E zu generieren."
+        "bot_info_tagline": "Discord Bot um Bilder mithilfe von OpenAIs DALL-E zu generieren.",
+        "generating": "Generiere Bild..."
     }
 }
