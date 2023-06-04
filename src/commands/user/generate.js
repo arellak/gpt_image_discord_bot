@@ -21,8 +21,9 @@ export default {
      * @param {import("discord.js").CommandInteraction} interaction
      */
     async execute(interaction){
+        const generationMessage = await __("replies.generating")(interaction.guildId);
         await interaction.reply({
-            content: "Generating image...",
+            content: generationMessage,
         });
         const noImage = await __("errors.no_image")(interaction.guildId);
         const image = await generate(interaction?.options?.get("prompt")?.value).then((res) => {
